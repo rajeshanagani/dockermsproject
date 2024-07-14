@@ -12,7 +12,7 @@ services:
       - "82:80"
     deploy:
       replicas: 3
-   dth:
+  dth:
     image: rajeshanagani/paytmdth:latest
     ports:
       - "83:80"
